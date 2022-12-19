@@ -122,3 +122,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  background-image: url(../img/background.jpg);
+  font-family: "Montserrat", sans-serif;
+  padding: 150px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-block {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 75px;
+  /* border: 1px solid black; */
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  backdrop-filter: blur(10px);
+}
